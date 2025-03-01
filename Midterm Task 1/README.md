@@ -16,3 +16,5 @@ For this task we are given a Flat data from Excel (See rawfile) and we are Task 
 
 ## STEP 4 Here's the screenshot of my output after I started data cleaning (See screenshot)
 <img src="Images/gittyhub.png" alt="Alt Text" width="400" height="300"> 
+
+## Here's the Physical Data Model
