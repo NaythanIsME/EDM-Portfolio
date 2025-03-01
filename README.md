@@ -8,4 +8,4 @@ Hi my name is Nathaniel Limiac you can call me "Naythan"
 - High School: Eastern Porac National High School
 - Elementary: Manibaug Libutad Elementary School
 ## My Projects
-Midterms Task 1:
+Midterms Task 1: [Data Cleaning and Preparation using EXCEL]()
