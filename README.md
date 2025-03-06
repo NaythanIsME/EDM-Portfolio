@@ -1,11 +1,11 @@
 # EDM - Projects - Naythan
 This is my repository for my Enterprise Data Management
 ## About Me
-I'm Naythan (Nathaniel Limiac), a 1st-year BSIS student at City College of Angeles. I'm passionate about coding and diving into the world of programming languages. Currently, I'm exploring various languages and technologies to enhance my skills.
+I'm Naythan (Nathaniel Limiac), a 1st-year Bachelor of Science in Information Systems(BSIS) student at City College of Angeles. I'm really interested about coding and leaning the world of programming languages. Currently, I'm exploring various languages and technologies to enhance my skills.
 
-I have a certificate in C Language and am expanding my knowledge in areas like web development, software engineering, and data structures. I’m particularly excited about building web applications, learning about frontend and backend development, and contributing to open-source projects.
+I have a certificate in C Language and am I still expanding my knowledge in areas like web development and data structures. I’m particularly excited about building web applications, learning about frontend and backend development, and want to be a fullstack developer.
 
-I enjoy problem-solving, tackling challenges, and growing my skills with every project. Feel free to connect with me or check out my work here!
+Feel free to connect with me or check out my work here!
 
 [Here's the Certificate](Certificate/Partner-_CLA_-_Programming_Essentials_in_C_certificate_nlimiac24-0228-cca-edu-ph_937351ad-c137-4407-9169-5046bf2376d6.pdf)
 ## Education
