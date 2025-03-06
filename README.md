@@ -1,3 +1,4 @@
+theme: jekyll-theme-minimal
 # EDM - Projects - Naythan
 This is my repository for my Enterprise Data Management
 ## About Me
