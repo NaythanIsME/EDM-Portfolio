@@ -7,7 +7,7 @@ I have a certificate in C Language and am I still expanding my knowledge in area
 
 Feel free to connect with me or check out my work here!
 
-[Here's the Certificate](Certificate/Partner-_CLA_-_Programming_Essentials_in_C_certificate_nlimiac24-0228-cca-edu-ph_937351ad-c137-4407-9169-5046bf2376d6.pdf)
+**[Here's the Certificate]**(Certificate/Partner-_CLA_-_Programming_Essentials_in_C_certificate_nlimiac24-0228-cca-edu-ph_937351ad-c137-4407-9169-5046bf2376d6.pdf)
 ## Education
 - College: City College of Angeles (BSIS)
 - Senior High School: Eastern Porac National High School
