@@ -14,4 +14,4 @@ Feel free to connect with me or check out my work here!
 - High School: Eastern Porac National High School
 - Elementary: Manibaug Libutad Elementary School
 ## My Projects
-Midterms Task 1: [Data Cleaning and Preparation using EXCEL](Midterm%20Task%201/README.md)
+Midterms Task 1: [Data Cleaning and Preparation using EXCEL](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Midterm%20Task%201)
