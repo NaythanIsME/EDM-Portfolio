@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anime-Themed GitHub Profile</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Omniscient Reader's Point of View - Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
   <style>
-    /* Global Reset */
+    /* Global reset */
     * {
       margin: 0;
       padding: 0;
@@ -14,9 +14,8 @@
     }
 
     body {
-      font-family: 'Poppins', sans-serif;
-      background: url('https://example.com/anime-background.jpg') no-repeat center center fixed;
-      background-size: cover;
+      font-family: 'Orbitron', sans-serif;
+      background: #121212;
       color: white;
       height: 100vh;
       display: flex;
@@ -27,72 +26,90 @@
     }
 
     .profile-container {
-      background-color: rgba(0, 0, 0, 0.7); /* semi-transparent background */
-      border-radius: 20px;
+      background-color: rgba(0, 0, 0, 0.8); /* Darker background */
+      border-radius: 15px;
       padding: 40px;
-      max-width: 500px;
+      max-width: 600px;
       width: 100%;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.6); /* Red shadow effect */
     }
 
     h1 {
-      font-size: 2.5rem;
-      color: #ff66cc; /* Anime pink theme */
+      font-size: 3rem;
+      color: #ff0033; /* Deep red color */
       margin-bottom: 10px;
       text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
     }
 
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
+      color: #ff6600; /* Lighter red/orange */
       margin-bottom: 20px;
-      color: #ffccff;
       text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
     }
 
     p {
-      font-size: 1.1rem;
-      line-height: 1.6;
+      font-size: 1.2rem;
       color: #e0e0e0;
-      margin-bottom: 20px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
     }
 
     .social-links a {
-      font-size: 1.3rem;
-      color: #ff66cc;
+      font-size: 1.5rem;
+      color: #ff0033;
       margin: 0 15px;
       text-decoration: none;
-      transition: transform 0.3s ease;
+      transition: transform 0.3s ease, color 0.3s ease;
     }
 
     .social-links a:hover {
       transform: scale(1.2);
+      color: #ffcc00; /* Yellow effect on hover */
     }
 
     .anime-avatar {
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
       object-fit: cover;
       margin-bottom: 20px;
-      border: 5px solid #ff66cc;
-      box-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
+      border: 3px solid #ff0033;
+      box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
     }
 
     .quote {
       font-style: italic;
-      color: #e6e6e6;
+      color: #ff0033;
       margin-top: 20px;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    }
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://example.com/omniscient-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      z-index: -1;
+      filter: blur(5px);
     }
   </style>
 </head>
 <body>
 
-  <div class="profile-container">
-    <img src="https://example.com/anime-avatar.jpg" alt="Anime Avatar" class="anime-avatar">
+  <div class="background"></div> <!-- Background image -->
 
-    <h1>Welcome to My GitHub</h1>
-    <h2>Developer | Anime Enthusiast | Tech Lover</h2>
-    <p>Hi, I'm a developer with a passion for coding, anime, and all things tech! Feel free to check out my repositories and explore my work!</p>
+  <div class="profile-container">
+    <img src="https://example.com/omniscient-avatar.jpg" alt="Omniscient Avatar" class="anime-avatar"> <!-- Avatar Image -->
+
+    <h1>Welcome to the Omniscient Reader's Realm</h1>
+    <h2>Overseer | Observer | Infinite Knowledge</h2>
+    <p>Welcome, fellow reader of the world. I see everything, know everything, and now, so do you. This is a place where stories and reality intertwine, where you can discover the paths of fate.</p>
     
     <div class="social-links">
       <a href="https://github.com/your-username" target="_blank">GitHub</a>
@@ -101,7 +118,7 @@
     </div>
 
     <div class="quote">
-      "Just like in anime, every line of code is a new adventure."
+      "The world is a story, and I am its omniscient reader."
     </div>
   </div>
 
