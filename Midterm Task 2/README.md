@@ -69,3 +69,5 @@ Uncleaned DS Jobs: The original dataset before any transformations.
 
 ## Physical Data Model
 (Insert physical data model screenshot here)
+
+<img src="Images/Physical Model.jpg" alt="Alt Text" width="400" height="300"> 
