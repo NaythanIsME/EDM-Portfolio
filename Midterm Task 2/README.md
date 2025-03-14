@@ -53,11 +53,19 @@ Here are the final queries after performing all necessary data transformations:
 
 Sal By Role Type dup: A query with job titles categorized by role type.
 
+<img src="Images/Sal By Role Type dup.jpg" alt="Alt Text" width="400" height="300"> 
+
 Sal By Size ref: A query focusing on salary data by company size or another metric.
+
+<img src="Images/Sal By Size ref.jpg" alt="Alt Text" width="400" height="300"> 
 
 Sal By State ref: A query analyzing salary data by state/location.
 
+<img src="Images/Sal By State ref.jpg" alt="Alt Text" width="400" height="300"> 
+
 Uncleaned DS Jobs: The original dataset before any transformations.
+
+<img src="Images/Uncleaned DS Jobs.jpg" alt="Alt Text" width="400" height="300"> 
 
 ## Physical Data Model
 (Insert physical data model screenshot here)
