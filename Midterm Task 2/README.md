@@ -36,8 +36,12 @@ For this task, we are provided with an Uncleaned_DS_jobs.csv dataset (from Kaggl
 
 Before Data Cleaning:
 (See screenshot of raw data before any transformations were made.)
+
 <img src="Images/Uncleaned_data.jpg" alt="Alt Text" width="400" height="300"> 
+
 [*Here's the raw file*](Certificate/Partner-_CLA_-_Programming_Essentials_in_C_certificate_nlimiac24-0228-cca-edu-ph_937351ad-c137-4407-9169-5046bf2376d6.pdf)
+
+
 After Data Cleaning:
 (See screenshot of cleaned data post-transformation.)
 <img src="Images/Uncleaned_data.jpg" alt="Alt Text" width="400" height="300"> 
