@@ -41,9 +41,9 @@ Before Data Cleaning:
 
 [*Here's the raw file*](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%202/Files/Uncleaned_DS_jobs.xlsx)
 
-
 After Data Cleaning:
 (See screenshot of cleaned data post-transformation.)
+
 <img src="Images/Uncleaned_data.jpg" alt="Alt Text" width="400" height="300"> 
 
 ## STEP 4 – Final Output Queries
