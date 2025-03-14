@@ -36,10 +36,11 @@ For this task, we are provided with an Uncleaned_DS_jobs.csv dataset (from Kaggl
 
 Before Data Cleaning:
 (See screenshot of raw data before any transformations were made.)
+<img src="Images/Uncleaned_data.jpg" alt="Alt Text" width="400" height="300"> 
 
 After Data Cleaning:
 (See screenshot of cleaned data post-transformation.)
-
+<img src="Images/Uncleaned_data.jpg" alt="Alt Text" width="400" height="300"> 
 ## STEP 4 – Final Output Queries
 Here are the final queries after performing all necessary data transformations:
 
