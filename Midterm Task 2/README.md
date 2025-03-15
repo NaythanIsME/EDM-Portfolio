@@ -53,7 +53,7 @@ Here are the final queries after performing all necessary data transformations:
 
 Sal By Role Type dup: A query with job titles categorized by role type.
 
-<img src="Images/Sal By Role Type dup.jpg" alt="Alt Text" width="400" height="300"> 
+<img src="Images/Sal By Role Type dup.jpg" alt="Alt Text" width="1000" height="300"> 
 
 Sal By Size ref: A query focusing on salary data by company size or another metric.
 
