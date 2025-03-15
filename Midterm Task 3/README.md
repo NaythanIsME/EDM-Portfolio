@@ -6,20 +6,29 @@ Load Data: Open Worksheet on Uncleaned DS Jobs and the transform tables
 
 ## Step 2 - Pivot Table Creation
 
-Sal by Role: Drag Job Role to Rows, Salary to Values (Sum).
-Sal by State: Drag State to Rows, Salary to Values (Sum).
-Sal by Size: Drag Company Size to Rows, Salary to Values (Sum).
+Sal by Role:
+
+<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+
+Sal by State: 
+
+<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+
+Sal by Size:
+
+<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
 
 ## STEP 3 - Design Your Dashboard
 
-Insert Chart: Select data → Insert → Chart Type (Bar/Column/Map).
-Map Chart (if available): Insert → Maps → Filled Map.
-Customize Chart: Right-click chart → Format chart area.
+Insert Chart: 
+<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+Map Chart:
+<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
 
 ## STEP 4 - Insert Slicers for Interactivity
 
-Color Customization: Home → Cell Styles or manually color chart elements.
-Chart Design: Select chart → Chart Tools → Design.
+Insert Slices:
+<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
 
 ## STEP 5 - Apply Design and Color Customizations
 
