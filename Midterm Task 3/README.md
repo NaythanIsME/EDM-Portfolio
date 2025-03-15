@@ -18,42 +18,31 @@ Sal by Size: Create a Pivot Table or summary table to get the total salary by Co
 
 ## STEP 2 - Design Your Dashboard
 
-2.1 State with the Most Number of Data Science Jobs
 Create Pivot Table:
 
-Insert a Pivot Table with State as rows and Count of Data Science Jobs as the values. This will give you the number of data science jobs per state.
-Chart Type:
-
-Create a Bar Chart or Map Chart (if available in your Excel version) to display the state with the most Data Science jobs visually.
+Column Type:
 
 For Map Chart:
-
-If your version of Excel supports it, use the Map Chart for a geographical representation of the data.
-This will automatically group the states and show the job distribution by location.
-2.2 Job Role with the Highest Average Salary
-Create Pivot Table:
-
-Insert a Pivot Table with Job Role as rows and Average Salary as values.
-Ensure that the aggregation function is set to Average for salary values.
-Chart Type:
-
-Use a Column Chart to display the job role with the highest average salary. Highlight the job role that has the highest salary in your data.
-2.3 Company Size that Pays the Highest
-Create Pivot Table:
-
-Insert a Pivot Table with Company Size as rows and Average Salary as values.
-Again, ensure that the aggregation function is set to Average for the salary field.
-Chart Type:
 
 Use a Bar Chart to visually compare the company sizes based on their average salaries. Highlight the company size that pays the highest salary.
 
 ## STEP 3 - Insert Slicers for Interactivity
 
+<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+
 ## STEP 4 - Apply Design and Color Customizations
+
+<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
 
 ## STEP 5 - Make the Dashboard Interactive
 
+<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+
 ## STEP 7 - Insert Dashboard
 
+<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+
 ## STEP 7 - Insert Map 
+
+<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
 
