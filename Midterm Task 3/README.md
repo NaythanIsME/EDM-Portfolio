@@ -1,11 +1,8 @@
 # Midterm Lab Task 3. Creating PIVOT TABLE and DASHBOARD
 focusing on building the Dashboard with the necessary Pivot Tables, charts, and interactivity using slicers. I'll break down the steps to ensure clarity:
 ## Step 1: Data Preparation
-Load Data: Open raw file.
-Trim Spaces: =TRIM(A1) (drag down).
-Remove Duplicates: Data → Remove Duplicates.
-Remove NULLs: Filter Data → Filter, then delete or replace NULLs.
-Adjust Column Width: Home → Format → AutoFit Column Width.
+
+Load Data: Open Worksheet on Uncleaned DS Jobs and the transform tables
 
 ## Step 2 - Pivot Table Creation
 
