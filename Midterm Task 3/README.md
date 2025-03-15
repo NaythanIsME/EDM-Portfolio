@@ -1,48 +1,44 @@
 # Midterm Lab Task 3. Creating PIVOT TABLE and DASHBOARD
 focusing on building the Dashboard with the necessary Pivot Tables, charts, and interactivity using slicers. I'll break down the steps to ensure clarity:
 ## Step 1: Data Preparation
-1.1 Load the Uncleaned Data
-Open the Uncleaned DS Jobs worksheet. Review the raw data carefully for any inconsistencies or missing information. Clean and transform the data where needed (similar to Task 1) by removing duplicates, handling null values, trimming spaces, etc.
-1.2 Transform Data into Key Tables
-Sal By Role: Create a Pivot Table or summary table to get the total salary by Job Role.
+Load Data: Open raw file.
+Trim Spaces: =TRIM(A1) (drag down).
+Remove Duplicates: Data → Remove Duplicates.
+Remove NULLs: Filter Data → Filter, then delete or replace NULLs.
+Adjust Column Width: Home → Format → AutoFit Column Width.
 
-<img src="Images/Raw_Data.jpg" alt="Alt Text" width="400" height="300"> 
+## Step 2 - Pivot Table Creation
 
-Sal By State: Create a Pivot Table or summary table to get the total salary by State.
+Sal by Role: Drag Job Role to Rows, Salary to Values (Sum).
+Sal by State: Drag State to Rows, Salary to Values (Sum).
+Sal by Size: Drag Company Size to Rows, Salary to Values (Sum).
 
-<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+## STEP 3 - Design Your Dashboard
 
-Sal by Size: Create a Pivot Table or summary table to get the total salary by Company Size.
+Insert Chart: Select data → Insert → Chart Type (Bar/Column/Map).
+Map Chart (if available): Insert → Maps → Filled Map.
+Customize Chart: Right-click chart → Format chart area.
 
-<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+## STEP 4 - Insert Slicers for Interactivity
 
-## STEP 2 - Design Your Dashboard
+Color Customization: Home → Cell Styles or manually color chart elements.
+Chart Design: Select chart → Chart Tools → Design.
 
-Create Pivot Table:
+## STEP 5 - Apply Design and Color Customizations
 
-Column Type:
+Color Customization: Home → Cell Styles or manually color chart elements.
+Chart Design: Select chart → Chart Tools → Design.
 
-For Map Chart:
+## STEP 6 - Make the Dashboard Interactive
 
-Use a Bar Chart to visually compare the company sizes based on their average salaries. Highlight the company size that pays the highest salary.
-
-## STEP 3 - Insert Slicers for Interactivity
-
-<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
-
-## STEP 4 - Apply Design and Color Customizations
-
-<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
-
-## STEP 5 - Make the Dashboard Interactive
-
-<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+Connect Slicers: Right-click slicer → Report Connections → select all relevant PivotTables.
+Test Interactivity: Click slicer options to verify filtering updates the dashboard.
 
 ## STEP 7 - Insert Dashboard
 
 <img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
 
-## STEP 7 - Insert Map 
+## STEP 8 - Insert Map 
 
 <img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
 
