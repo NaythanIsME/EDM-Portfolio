@@ -8,15 +8,15 @@ Load Data: Open Worksheet on Uncleaned DS Jobs and the transform tables
 
 Sal by Role:
 
-<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+<img src="Images/RolePivot.jpg" alt="Alt Text" width="400" height="300">
 
 Sal by State: 
 
-<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+<img src="Images/StatePivot.jpg" alt="Alt Text" width="400" height="300">
 
 Sal by Size:
 
-<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+<img src="Images/SizePivot.jpg" alt="Alt Text" width="400" height="300">
 
 ## STEP 3 - Design Your Dashboard
 
@@ -51,9 +51,9 @@ Test Interactivity: Click slicer options to verify filtering updates the dashboa
 
 ## STEP 7 - Insert Dashboard
 
-<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+<img src="Images/DashBoard.jpg" alt="Alt Text" width="400" height="300">
 
 ## STEP 8 - Insert Map 
 
-<img src="Images/Cleaned_Data.jpg" alt="Alt Text" width="400" height="300">
+<img src="Images/PivotMap.jpg.jpg" alt="Alt Text" width="400" height="300">
 
