@@ -57,3 +57,5 @@ Test Interactivity: Click slicer options to verify filtering updates the dashboa
 
 <img src="Images/PivotMap.jpg" alt="Alt Text" width="700" height="400">
 
+[*Here's the file*](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%203/Files/NathanielLimiacPivot.xlsx)
+
