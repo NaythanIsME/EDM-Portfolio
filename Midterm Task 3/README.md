@@ -32,7 +32,7 @@ Sal by Size:
 
 ## STEP 4 - Insert Slicers for Interactivity
 
-Insert Slices:
+*Insert Slices:*
 
 - Select a PivotTable (e.g., Salary by Role) and go to Insert > Slicer.
 - Choose the fields you want to filter by, such as State, Size, or Role.
