@@ -20,13 +20,15 @@ Sal by Size:
 
 ## STEP 3 - Design Your Dashboard
 
-Insert Chart: 
-Salary by Role Chart: Select your PivotTable for Salary by Role, and then go to Insert > Recommended Charts. Choose a Bar Chart or Column Chart for this.
-Salary by State Chart: Similarly, select the PivotTable for Salary by State and insert a Bar Chart or Column Chart.
-Salary by Size Chart: Use a Pie Chart or Bar Chart for visualizing Salary by Size.
+*Insert Chart:* 
 
-Map Chart:
-If you want to use a Map Chart for Salary by State, select the State and Salary data from your PivotTable, and then go to Insert > Maps > Filled Map. Ensure that your state names are recognized by Excel for map generation.
+- Salary by Role Chart: Select your PivotTable for Salary by Role, and then go to Insert > Recommended Charts. Choose a Bar Chart or Column Chart for this.
+- Salary by State Chart: Similarly, select the PivotTable for Salary by State and insert a Bar Chart or Column Chart.
+- Salary by Size Chart: Use a Pie Chart or Bar Chart for visualizing Salary by Size.
+
+*Map Chart:*
+
+- If you want to use a Map Chart for Salary by State, select the State and Salary data from your PivotTable, and then go to Insert > Maps > Filled Map. Ensure that your state names are recognized by Excel for map generation.
 
 ## STEP 4 - Insert Slicers for Interactivity
 
