@@ -47,6 +47,7 @@ After Data Cleaning:
 <img src="Images/Uncleaned_data.jpg" alt="Alt Text" width="400" height="300"> 
 
 [*Here's the cleaned file*](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%202/Files/NathanielLimiac_task2.xlsx)
+
 ## STEP 4 – Final Output Queries
 Here are the final queries after performing all necessary data transformations:
 
