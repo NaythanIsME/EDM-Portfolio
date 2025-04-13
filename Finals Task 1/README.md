@@ -21,12 +21,12 @@ This table links sponsors to events with the event_id and sponsor_name.
 
 ## STEP 2 - Here's the screenshot of my output tables (See screenshot)
 
-<img src="Images/TABLES.jpg" alt="Alt Text" width="400" height="300"> 
+<img src="Images/TABLES.jpg" alt="Alt Text" width="1000" height="300"> 
 
 [*Here's the raw file*](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/Files/naytheen.sql)
 
 ## STEP 3 - Here's the screenshot of my output ERD (See screenshot)
 
-<img src="Images/ERD.jpg" alt="Alt Text" width="400" height="300"> 
+<img src="Images/ERD.jpg" alt="Alt Text" width="1000" height="300"> 
 
 [*Here's the raw file*](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/Files/naythan.mwb)
