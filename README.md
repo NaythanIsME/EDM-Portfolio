@@ -19,3 +19,5 @@ Midterms Task 1: [Data Cleaning and Preparation using EXCEL](https://github.com/
 Midterms Task 2: [Data Cleaning and Transformation Using Power Query Editor](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Midterm%20Task%202)
 
 Midterm Task 3. [Creating PIVOT TABLE and DASHBOARD](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Midterm%20Task%203)
+
+Finals Task 1. [Events Management DB](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Finals%20Task%201)
