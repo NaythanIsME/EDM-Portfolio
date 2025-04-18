@@ -1,7 +1,7 @@
 # EDM - Projects - Naythan
 This is my repository for my Enterprise Data Management
 
-<img src="Images/годжо.gif" alt="Alt Text" width="400" height="300">
+![Alt text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Certificate/Images/%D0%B3%D0%BE%D0%B4%D0%B6%D0%BE.gif)
 
 ## About Me
 I'm Nathaniel Limiac just call me Naythan, a 1st-year Bachelor of Science in Information Systems(BSIS) student at City College of Angeles. I'm really interested about coding and leaning the world of programming languages. Currently, I'm exploring various languages and technologies to enhance my skills.
