@@ -2,132 +2,166 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Naythan</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      padding: 40px 20px;
-      background-color: #0e0e0e;
+      padding: 60px 30px;
+      background-color: #0d0d0d;
+      color: #f0f0f0;
       font-family: 'Inter', sans-serif;
-      color: #e0e0e0;
       max-width: 800px;
       margin-left: auto;
       margin-right: auto;
+      line-height: 1.8;
     }
 
     h1 {
-      font-size: 2.5rem;
-      color: #ffffff;
+      font-size: 2.8rem;
+      color: #ff69b4;
       text-align: center;
+      font-family: 'JetBrains Mono', monospace;
       margin-bottom: 10px;
     }
 
     h2 {
-      font-size: 1.2rem;
-      color: #888;
       text-align: center;
+      font-size: 1rem;
+      color: #888;
       font-weight: 400;
-      margin-bottom: 40px;
+      margin-bottom: 50px;
+      font-family: 'JetBrains Mono', monospace;
     }
 
     .section {
       margin: 50px 0;
     }
 
-    .section-title {
-      font-size: 1.1rem;
-      color: #7dd6f9;
-      margin-bottom: 10px;
-      font-weight: 600;
+    .label {
+      color: #ff69b4;
+      font-size: 0.9rem;
       text-transform: uppercase;
       letter-spacing: 1px;
+      font-family: 'JetBrains Mono', monospace;
+      margin-bottom: 10px;
     }
 
-    .section-content {
-      font-size: 1rem;
-      color: #c0c0c0;
-      line-height: 1.6;
+    .paragraph {
+      font-size: 1.05rem;
+      color: #d0d0d0;
+      font-weight: 400;
     }
 
-    .project-link {
-      color: #7dd6f9;
+    .quote {
+      font-style: italic;
+      color: #ff9cd6;
+      margin: 20px 0;
+      padding-left: 20px;
+      border-left: 2px solid #ff69b4;
+    }
+
+    .project {
+      margin: 20px 0;
+    }
+
+    .project-title {
+      color: #ff69b4;
+      font-weight: 600;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .link {
+      color: #ff69b4;
       text-decoration: none;
+      font-family: 'JetBrains Mono', monospace;
     }
 
-    .project-link:hover {
-      text-decoration: underline;
-    }
-
-    .github-link {
-      text-align: center;
-      margin-top: 60px;
-    }
-
-    .github-link a {
-      color: #7dd6f9;
-      text-decoration: none;
-      font-size: 0.95rem;
-    }
-
-    .github-link a:hover {
+    .link:hover {
       text-decoration: underline;
     }
 
     hr {
       border: none;
       height: 1px;
-      background-color: #2a2a2a;
-      margin: 50px 0;
+      background-color: #222;
+      margin: 60px 0;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: 80px;
+      font-family: 'JetBrains Mono', monospace;
     }
   </style>
 </head>
 <body>
 
   <h1>Naythan</h1>
-  <h2>Tech • Code • Custom Builds</h2>
+  <h2>Code meets Concept // Dark Tech Edition</h2>
 
   <div class="section">
-    <div class="section-title">About</div>
-    <div class="section-content">
-      I’m passionate about combining aesthetic design with performance. Whether it's a custom PC or a front-end project, I build with clarity and precision.
+    <div class="label">Prologue</div>
+    <div class="paragraph">
+      In a world stitched together by code and caffeine, one mind continues to architect systems that blur the line between logic and aesthetics.
+      This is where performance meets polish — where the machine breathes through design.
     </div>
   </div>
 
   <hr>
 
   <div class="section">
-    <div class="section-title">Featured Project</div>
-    <div class="section-content">
-      <strong>🎧 EDM Portfolio</strong><br>
-      A sleek, responsive portfolio concept made for DJs and electronic artists. It showcases tracks, tour dates, and social links — all in a clean, club-friendly layout.<br>
-      ➜ <a class="project-link" href="https://github.com/NaythanIsME/EDM-Portfolio" target="_blank">View on GitHub</a>
+    <div class="label">Terminal Logs</div>
+    
+    <div class="project">
+      <div class="project-title">📂 EDM Portfolio</div>
+      <div class="paragraph">
+        A responsive portfolio site tailored for DJs and electronic artists. Pulsing visuals, track embeds, tour-ready design.
+        <br>
+        <a class="link" href="https://github.com/NaythanIsME/EDM-Portfolio" target="_blank">→ github.com/NaythanIsME/EDM-Portfolio</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title">⚙️ SetupSync</div>
+      <div class="paragraph">
+        Dotfile deployment and config sync — for those who treat setups like art. Git-based, modular, and terminal-friendly.
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-title">🖥️ BuildHub</div>
+      <div class="paragraph">
+        A visual PC builder web app — live compatibility, specs, and a clean UI for planning dream rigs.
+      </div>
     </div>
   </div>
 
   <hr>
 
   <div class="section">
-    <div class="section-title">Other Projects</div>
-    <div class="section-content">
-      - <strong>SetupSync</strong>: Deploy dotfiles and configs across devices.<br>
-      - <strong>BuildHub</strong>: Live PC builder with part compatibility.<br>
-      - <strong>DarkDash</strong>: Minimal JS dashboard for daily use.
-    </div>
+    <div class="label">Fragments</div>
+    <div class="quote">"Minimal design is power in silence."</div>
+    <div class="quote">"Every build tells a story — whether it hums or roars."</div>
   </div>
 
   <hr>
 
   <div class="section">
-    <div class="section-title">Contact</div>
-    <div class="section-content">
-      Reach out via GitHub or email — always down to collaborate on cool ideas, clean UI, or automation workflows.
+    <div class="label">Connect</div>
+    <div class="paragraph">
+      Have a project idea, collab offer, or just want to nerd out over cooling systems and CSS grids?<br>
+      Ping me on GitHub.
+      <br><br>
+      <a class="link" href="https://github.com/NaythanIsME/EDM-Portfolio/blob/main/README.md" target="_blank">→ github.com/NaythanIsME</a>
     </div>
   </div>
 
-  <div class="github-link">
-    <a href="https://github.com/NaythanIsME" target="_blank">github.com/NaythanIsME</a>
+  <div class="footer">
+    ⌐■-■ Built with pixels, pink, and purpose. <br>Naythan © 2025
   </div>
 
 </body>
