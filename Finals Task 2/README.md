@@ -1,4 +1,4 @@
-# Finals Lab Task 1 - Events Management DB
+# Finals Lab Task 1 - Transforming ER into Relational Tables
 
 ## Task 1 -  Query statements
 
