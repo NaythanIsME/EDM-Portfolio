@@ -59,6 +59,7 @@ VALUES
 ## Task 4 - Sql copy of the database and table structures
 
 [Raw Copy of MySQL File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%202/Files/Naythan.sql)
+
 CREATE DATABASE student_assignment_db;
 USE student_assignment_db;
 
