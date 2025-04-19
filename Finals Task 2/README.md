@@ -1,4 +1,4 @@
-# Finals Lab Task 1 - Transforming ER into Relational Tables
+# Finals Lab Task 2 - Transforming ER into Relational Tables
 
 ## Task 1 -  Query statements
 
