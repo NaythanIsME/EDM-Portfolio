@@ -1,6 +1,15 @@
 # Finals Lab Task 1 - Events Management DB
 
+## Task 1 -  Query statements
+
+SELECT * FROM student_tb;
+
+SELECT * FROM assignment_tb;
+
+SELECT * FROM submission_tb;
+
 ## Task 2 - Table Structure 
+
 CREATE DATABASE student_assignment_db;
 USE student_assignment_db;
 
