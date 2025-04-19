@@ -25,3 +25,5 @@ Midterms Task 3. [Creating PIVOT TABLE and DASHBOARD](https://github.com/Naythan
 
 ## My Projects for Finals
 Finals Task 1. [Events Management DB](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Finals%20Task%201)
+Finals Task 2. [Transforming ER into Relational Tables](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Finals%20Task%202)
+Finals Task 3. [Table Manipulation](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Finals%20Task%203)
