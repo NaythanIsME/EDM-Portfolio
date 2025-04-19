@@ -29,3 +29,7 @@ data TEXT,
     FOREIGN KEY (shortname) REFERENCES assignment_tb(shortname)
         ON DELETE CASCADE ON UPDATE CASCADE
 );
+
+## Task 3 -  ER Diagram or Relational schema from phpMyAdmin or Workbench
+
+<img src="Images/FT2%20ERD.jpg" alt="Alt Text" width="1000" height="300"> 
