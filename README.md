@@ -10,6 +10,7 @@ I'm **Nathaniel Limiac** (just call me *Naythan*), a 1st-year **Bachelor of Scie
 I have a **certificate in C Language** and am expanding my knowledge in areas like **web development** and **data structures**. I’m particularly excited about building **web applications**, learning about **frontend** and **backend development**, and I aspire to become a **full-stack developer**.
 
 Feel free to connect with me or check out my work here!  
+
 [*Here's the Certificate*](Certificate/Partner-_CLA_-_Programming_Essentials_in_C_certificate_nlimiac24-0228-cca-edu-ph_937351ad-c137-4407-9169-5046bf2376d6.pdf)
 
 ---
