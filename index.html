@@ -115,7 +115,7 @@
         .highlighted-quote {
             background-color: #61A8D6;
             color: #FFFFFF;
-            font-size: 24px;
+            font-size: 20px; /* Reduced font size */
             font-family: 'Quicksand', sans-serif;
             font-weight: 700;
             padding: 25px;
@@ -131,6 +131,38 @@
             padding: 20px;
             margin-top: 20px;
             font-family: 'Open Sans', sans-serif;
+        }
+
+        /* New Emphasized Task Styles */
+        .task {
+            padding: 15px;
+            background-color: #4D84A8;
+            margin: 10px 0;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .task:hover {
+            background-color: #61A8D6;
+            transform: scale(1.05);
+        }
+
+        .task a {
+            display: block;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .task a:hover {
+            text-decoration: underline;
+        }
+
+        .task h3 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            color: #FFFFFF;
+            font-style: italic; /* Italicize the task titles */
         }
     </style>
 </head>
@@ -172,11 +204,38 @@
     <p>My goal is to become a full-stack developer, building applications and learning both frontend and backend technologies. Feel free to connect with me or check out my work here!</p>
 </section>
 
+<!-- My Projects for Midterms -->
 <section>
-    <h2>Some Memorable Quotes from ORV</h2>
-    <blockquote>"It doesn’t matter if the world changes. I will never forget the story I read." — Kim Dokja</blockquote>
-    <blockquote>"I want to know. I want to know the truth of this world, even if it’s nothing like the story I read." — Kim Dokja</blockquote>
-    <blockquote>"I may be weak, but I will never give up." — Han Sooyoung</blockquote>
+    <h2>My Projects for Midterms</h2>
+    <div class="task">
+        <h3>Midterms Task 1: Data Cleaning and Preparation using EXCEL</h3>
+        <a href="https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%201/README.md" target="_blank">View Project</a>
+    </div>
+    <div class="task">
+        <h3>Midterms Task 2: Data Cleaning and Transformation Using Power Query Editor</h3>
+        <a href="https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%202/README.md" target="_blank">View Project</a>
+    </div>
+    <div class="task">
+        <h3>Midterms Task 3: Creating PIVOT TABLE and DASHBOARD</h3>
+        <a href="https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%203/README.md" target="_blank">View Project</a>
+    </div>
+</section>
+
+<!-- My Projects for Finals -->
+<section>
+    <h2>My Projects for Finals</h2>
+    <div class="task">
+        <h3>Finals Task 1: Events Management DB</h3>
+        <a href="https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/README.md" target="_blank">View Project</a>
+    </div>
+    <div class="task">
+        <h3>Finals Task 2: Transforming ER into Relational Tables</h3>
+        <a href="https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%202/README.md" target="_blank">View Project</a>
+    </div>
+    <div class="task">
+        <h3>Finals Task 3: Table Manipulation</h3>
+        <a href="https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%203/README.md" target="_blank">View Project</a>
+    </div>
 </section>
 
 </body>
