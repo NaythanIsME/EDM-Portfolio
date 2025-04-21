@@ -2,8 +2,6 @@
 
 This is my repository for my Enterprise Data Management
 
-![Naythan GIF](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Certificate/Images/%D0%B3%D0%BE%D0%B4%D0%B6%D0%BE.gif)
-
 ---
 
 ## **About Me**  
