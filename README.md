@@ -50,21 +50,3 @@ Learning how to manipulate tables effectively using SQL and related tools to ens
 
 ---
 
-## 💬 **Connect With Me!**
-Feel free to check out my projects, leave feedback, or connect with me for collaboration opportunities.
-
----
-
-### **Key Skills and Technologies**  
-**Languages**: Python, C, JavaScript  
-**Tools**: Excel, Power Query, SQL, Data Structures, Web Development
-
----
-
-### **My Projects Visuals**  
-Below are some screenshots and visuals of my projects. You can check out each link for more detailed information.
-
-![Midterm Task 1 Screenshot](https://path/to/image.png)
-![Midterm Task 2 Screenshot](https://path/to/image.png)
-
----
