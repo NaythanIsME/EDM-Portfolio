@@ -65,8 +65,6 @@ For this task, we are given flat data from Excel (See raw file) and tasked with 
 
 ---
 
----
-
 ## STEP 4 - Files
 
 ### **Raw Data File:**
