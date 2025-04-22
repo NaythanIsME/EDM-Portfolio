@@ -1,61 +1,97 @@
-# Midterm Lab Task 3. Creating PIVOT TABLE and DASHBOARD
-focusing on building the Dashboard with the necessary Pivot Tables, charts, and interactivity using slicers. I'll break down the steps to ensure clarity:
+# Midterm Lab Task 3: Creating PIVOT TABLE and DASHBOARD
+
+This task focuses on building a Dashboard with the necessary Pivot Tables, charts, and interactivity using slicers. Below are the detailed steps for creating the Pivot Tables and the Dashboard:
+
 ## Step 1: Data Preparation
 
-Load Data: Open Worksheet on Uncleaned DS Jobs and the transform tables
+### 1. **Load Data**
+- Open the worksheet for **Uncleaned DS Jobs** and transform the necessary tables into Pivot Tables.
 
-## Step 2 - Pivot Table Creation
+---
 
-Sal by Role:
+## Step 2: Pivot Table Creation
 
-<img src="Images/RolePivot.jpg" alt="Alt Text" width="600" height="300">
+### **Sal by Role:**
+- Create a Pivot Table to display salary data categorized by role.
+![Role Pivot](Images/RolePivot.jpg)
 
-Sal by State: 
+### **Sal by State:**
+- Create a Pivot Table to display salary data categorized by state.
+![State Pivot](Images/StatePivot.jpg)
 
-<img src="Images/StatePivot.jpg" alt="Alt Text" width="600" height="300">
+### **Sal by Size:**
+- Create a Pivot Table to display salary data categorized by company size.
+![Size Pivot](Images/SizePivot.jpg)
 
-Sal by Size:
+---
 
-<img src="Images/SizePivot.jpg" alt="Alt Text" width="600" height="300">
+## Step 3: Design Your Dashboard
 
-## STEP 3 - Design Your Dashboard
+### **Insert Charts:**
 
-*Insert Chart:* 
+- **Salary by Role Chart**: 
+  - Select your PivotTable for Salary by Role, and then go to `Insert > Recommended Charts`. Choose a **Bar Chart** or **Column Chart** for this.
+- **Salary by State Chart**: 
+  - Similarly, select the PivotTable for Salary by State and insert a **Bar Chart** or **Column Chart**.
+- **Salary by Size Chart**: 
+  - Use a **Pie Chart** or **Bar Chart** for visualizing Salary by Size.
 
-- Salary by Role Chart: Select your PivotTable for Salary by Role, and then go to Insert > Recommended Charts. Choose a Bar Chart or Column Chart for this.
-- Salary by State Chart: Similarly, select the PivotTable for Salary by State and insert a Bar Chart or Column Chart.
-- Salary by Size Chart: Use a Pie Chart or Bar Chart for visualizing Salary by Size.
+### **Map Chart:**
 
-*Map Chart:*
+- If you want to use a **Map Chart** for Salary by State:
+  - Select the State and Salary data from your PivotTable.
+  - Then go to `Insert > Maps > Filled Map`.
+  - Ensure that your state names are recognized by Excel for map generation.
 
-- If you want to use a Map Chart for Salary by State, select the State and Salary data from your PivotTable, and then go to Insert > Maps > Filled Map. Ensure that your state names are recognized by Excel for map generation.
+---
 
-## STEP 4 - Insert Slicers for Interactivity
+## Step 4: Insert Slicers for Interactivity
 
-*Insert Slices:*
+### **Insert Slicers:**
 
-- Select a PivotTable (e.g., Salary by Role) and go to Insert > Slicer.
-- Choose the fields you want to filter by, such as State, Size, or Role.
-- Repeat this for other PivotTables as needed.
+- Select a PivotTable (e.g., Salary by Role) and go to `Insert > Slicer`.
+- Choose the fields you want to filter by, such as **State**, **Size**, or **Role**.
+- Repeat this process for other PivotTables as needed.
 
+---
 
-## STEP 5 - Apply Design and Color Customizations
+## Step 5: Apply Design and Color Customizations
 
-Color Customization: Home → Cell Styles or manually color chart elements.
-Chart Design: Select chart → Chart Tools → Design.
+- **Color Customization**: 
+  - Go to `Home → Cell Styles` or manually color chart elements to match your desired color scheme.
+- **Chart Design**:
+  - Select the chart → `Chart Tools → Design` to apply design customizations.
 
-## STEP 6 - Make the Dashboard Interactive
+---
 
-Connect Slicers: Right-click slicer → Report Connections → select all relevant PivotTables.
-Test Interactivity: Click slicer options to verify filtering updates the dashboard.
+## Step 6: Make the Dashboard Interactive
 
-## STEP 7 - Insert Dashboard
+### **Connect Slicers:**
 
-<img src="Images/DashBoard.jpg" alt="Alt Text" width="800" height="400">
+- Right-click on a slicer → `Report Connections` → select all relevant PivotTables.
 
-## STEP 8 - Insert Map 
+### **Test Interactivity:**
 
-<img src="Images/PivotMap.jpg" alt="Alt Text" width="700" height="400">
+- Click slicer options and verify that filtering updates the dashboard accordingly.
 
-[*Here's the file*](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%203/Files/NathanielLimiacPivot.xlsx)
+---
 
+## Step 7: Insert Dashboard
+
+Here’s a screenshot of the final dashboard that includes all Pivot Tables and charts.
+
+![Dashboard](Images/DashBoard.jpg)
+
+---
+
+## Step 8: Insert Map
+
+This is the map chart showing salary data by state.
+
+![Pivot Map](Images/PivotMap.jpg)
+
+---
+
+## Final File
+
+[**Here’s the file**](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Midterm%20Task%203/Files/NathanielLimiacPivot.xlsx)
