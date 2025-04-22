@@ -86,19 +86,19 @@ Here are the final queries after performing all necessary data transformations:
 
 ### 1. **Sal By Role Type dup**:
 A query with job titles categorized by role type.
-![Sal By Role Type dup](Images/Sal By Role Type dup.jpg)
+![Sal By Role Type dup](Images/Sal%20By%20Role%20Type%20dup.jpg)
 
 ### 2. **Sal By Size ref**:
 A query focusing on salary data by company size or another metric.
-![Sal By Size ref](Images/Sal By Size ref.jpg)
+![Sal By Size ref](Images/Sal%20By%20Size%20ref.jpg)
 
 ### 3. **Sal By State ref**:
 A query analyzing salary data by state/location.
-![Sal By State ref](Images/Sal By State ref.jpg)
+![Sal By State ref](Images/Sal%20By%20State%20ref.jpg)
 
 ### 4. **Uncleaned DS Jobs**:
 The original dataset before any transformations.
-![Uncleaned DS Jobs](Images/Uncleaned DS Jobs.jpg)
+![Uncleaned DS Jobs](Images/Uncleaned%20DS%20Jobs.jpg)
 
 ---
 
