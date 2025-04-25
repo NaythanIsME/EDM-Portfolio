@@ -33,7 +33,7 @@ VALUES
 ALTER TABLE products_tbl
 MODIFY COLUMN product_name VARCHAR(120) NOT NULL;
 
-## Task 3 - ER Diagram or Relational Schema from phpMyAdmin or Workbench
+## Task 3 - Relational Schema for Products Table
 
 <img src="Images/FT2%20ERD.jpg" alt="Alt Text" width="800" height="400"> 
 
