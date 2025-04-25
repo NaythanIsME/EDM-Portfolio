@@ -92,6 +92,6 @@ INSERT INTO EmployeeData (full_name, department, salary, hire_date, manager_id) 
 
 ## Task 5 - SQL Copy of the Database and Table Structures
 
-[Download SQL File Problem 1](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/Files/ft4_pro1.sql)
+[Download SQL File Problem 1](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/Files/ft4_prob1.sql)
 
 [Download SQL File Problem 2](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/Files/ft4_pro2.sql)
