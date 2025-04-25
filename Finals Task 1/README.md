@@ -21,38 +21,35 @@ Here is the output of the tables in the **Naythan_DB** database:
 
 ![Tables Output](Images/TABLES.jpg)
 
-*For the raw SQL file, click [here](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/Files/naytheen.sql).*
-
 ### Step 3: Entity Relationship Diagram (ERD)
 
 Below is the ERD showing the relationships between the tables:
 
 ![ERD](Images/ERD.jpg)
 
-*For the raw ERD file, click [here](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/Files/naythan.mwb).*
+## Raw Files
+
+The following raw files are available for download:
+
+1. [SQL Script](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/Files/naytheen.sql) - The SQL script to create the database and tables.
+2. [ERD File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/Files/naythan.mwb) - The raw ERD file for visual representation of the database.
 
 ## Database Creation SQL Script
 
-The script for creating the database and tables is as follows:
-
 ```sql
--- Create Database if it doesn't exist
 CREATE DATABASE IF NOT EXISTS Naythan_DB;
 USE Naythan_DB;
 
--- Create events_tbl
 CREATE TABLE IF NOT EXISTS events_tbl (
   event_id INT AUTO_INCREMENT PRIMARY KEY,
   event_name VARCHAR(255) NOT NULL
 );
 
--- Create attendees_tbl
 CREATE TABLE IF NOT EXISTS attendees_tbl (
   attendee_id INT AUTO_INCREMENT PRIMARY KEY,
   attendee_name VARCHAR(255) NOT NULL
 );
 
--- Create events_attendees_tbl (many-to-many relationship)
 CREATE TABLE IF NOT EXISTS events_attendees_tbl (
   event_id INT,
   attendee_id INT,
@@ -61,7 +58,6 @@ CREATE TABLE IF NOT EXISTS events_attendees_tbl (
   FOREIGN KEY (attendee_id) REFERENCES attendees_tbl(attendee_id)
 );
 
--- Create event_sponsors_tbl
 CREATE TABLE IF NOT EXISTS event_sponsors_tbl (
   event_id INT,
   sponsor_name VARCHAR(255) NOT NULL,
