@@ -1,12 +1,16 @@
 # Finals Task 4 - Employee Databases
 
-## Task 1 - Query Statements
+## Task 1 - Query Statements ( Problem 1 )
 
-SELECT * FROM EmployeeSalaries;
+SELECT employee_name, salary
+FROM EmployeeSalaries
+ORDER BY salary DESC;
 
-SELECT * FROM EmployeeData;
+SELECT department, AVG(salary) AS average_salary
+FROM EmployeeSalaries
+GROUP BY department;
 
-## Task 2 - Table Structure
+## Task 2 - Table Structure ( Problem 1 )
 
 CREATE DATABASE payroll;
 USE payroll;
@@ -36,6 +40,25 @@ INSERT INTO EmployeeSalaries (employee_name, department, salary, hire_date) VALU
 ('Laura Martinez', 'Marketing', 88000.00, '2017-04-22'),
 ('Robert Lopez', 'IT', 93000.00, '2018-11-15'),
 ('Amanda Harris', 'Sales', 78000.00, '2018-09-30');
+
+## Task 3 - Query Statements ( Problem 2 )
+
+SELECT full_name, salary
+FROM EmployeeData
+ORDER BY salary DESC;
+
+SELECT AVG(salary) AS average_salary
+FROM EmployeeData
+HAVING average_salary > 70000;
+
+SELECT full_name
+FROM EmployeeData
+WHERE salary > 100000;
+
+SELECT COUNT(employee_id) AS number_of_employees
+FROM EmployeeData;
+
+## Task 4 - Table Structure ( Problem 2 )
 
 CREATE DATABASE employeeDB;
 USE employeeDB;
@@ -67,10 +90,6 @@ INSERT INTO EmployeeData (full_name, department, salary, hire_date, manager_id) 
 ('Robert Lopez', 'IT', 193000.00, '2018-11-15', 9),
 ('Amanda Harris', 'Sales', 128000.00, '2018-09-30', 1);
 
-## Task 3 - Relational Schema for Products Table
-
-<img src="Images/Products_tbl.jpg" alt="Alt Text" width="800" height="400"> 
-
-## Task 4 - SQL Copy of the Database and Table Structures
+## Task 5 - SQL Copy of the Database and Table Structures
 
 [Download SQL File](https://github.com/YourUsername/YourRepo/blob/main/Finals%20Task%204/Files/employee_databases.sql)
