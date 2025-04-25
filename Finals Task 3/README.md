@@ -35,11 +35,11 @@ MODIFY COLUMN product_name VARCHAR(120) NOT NULL;
 
 ## Task 3 - Relational Schema for Products Table
 
-<img src="Images/FT2%20ERD.jpg" alt="Alt Text" width="800" height="400"> 
+<img src="Images/Products_tbl.jpg" alt="Alt Text" width="800" height="400"> 
 
 ## Task 4 - SQL Copy of the Database and Table Structures
 
-[Raw Copy of MySQL File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%202/Files/Naythan.sql)
+[Raw Copy of MySQL File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%203/Files/naythan_products.sql)
 
 CREATE DATABASE products_db;
 USE products_db;
