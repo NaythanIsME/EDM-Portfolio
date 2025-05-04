@@ -1,10 +1,16 @@
-# Finals Lab Task 1 - Events Management Database (Naythan_DB)
+# 🎓 Finals Lab Task 1 - Events Management Database (Naythan_DB)
 
-## Overview
+## 📝 Overview
 
 This project involves creating a database for managing events, attendees, and sponsors, following the requirements of the task. The database **Naythan_DB** contains multiple tables and relationships, aimed at tracking event details, attendee participation, and event sponsorship.
 
 ## Project Components
+
+- ✅ Event details
+
+- ✅ Attendee participation
+
+- ✅ Event sponsorships
 
 ### Step 1: Database Structure
 
