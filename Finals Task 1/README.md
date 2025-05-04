@@ -4,22 +4,30 @@
 
 This project involves creating a database for managing events, attendees, and sponsors, following the requirements of the task. The database **Naythan_DB** contains multiple tables and relationships, aimed at tracking event details, attendee participation, and event sponsorship.
 
-## Project Components
-
 - ✅ Event details
 
 - ✅ Attendee participation
 
 - ✅ Event sponsorships
+- 
+## Project Components
 
 ### Step 1: Database Structure
 
 The database consists of the following tables:
 
-1. **events_tbl**: Holds events with an `event_id` as the primary key and `event_name`.
-2. **attendees_tbl**: Contains attendees with an `attendee_id` as the primary key and `attendee_name`.
-3. **events_attendees_tbl**: Links events and attendees in a many-to-many relationship, using `event_id` and `attendee_id` as foreign keys.
-4. **event_sponsors_tbl**: Connects sponsors to events, using `event_id` and `sponsor_name`.
+1. events_tbl – Stores event information
+🔑 event_id (Primary Key), 📝 event_name
+
+2. attendees_tbl – Stores attendee information
+🔑 attendee_id (Primary Key), 📝 attendee_name
+
+3. events_attendees_tbl – Connects events and attendees (Many-to-Many)
+🔗 Foreign Keys: event_id, attendee_id
+
+4. event_sponsors_tbl – Tracks sponsors per event
+🔗 Foreign Key: event_id, 📝 sponsor_name
+
 
 ### Step 2: Table Design and Output
 
