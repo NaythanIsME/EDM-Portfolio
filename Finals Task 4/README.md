@@ -51,20 +51,28 @@ INSERT INTO EmployeeSalaries (employee_name, department, salary, hire_date) VALU
 SELECT full_name, salary
 FROM EmployeeData
 ORDER BY salary DESC;
+```
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/Images/FT4%20P2%201.jpg)
 
+```sql
 SELECT AVG(salary) AS average_salary
 FROM EmployeeData
 HAVING average_salary > 70000;
+```
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/Images/FT4%20P2%202.jpg)
 
+```sql
 SELECT full_name
 FROM EmployeeData
 WHERE salary > 100000;
+```
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/Images/FT4%20P2%203.jpg)
 
+```sql
 SELECT COUNT(employee_id) AS number_of_employees
 FROM EmployeeData;
 ```
-
-![Alt Text](relative/path/to/image.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/Images/FT4%20P2%204.jpg)
 
 
 ## 🏗️ Task 4 – Table Structure (Problem 2)
