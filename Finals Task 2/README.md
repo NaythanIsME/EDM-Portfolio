@@ -1,13 +1,13 @@
 # 🧪 Finals Lab Task 2 – Transforming ER into Relational Tables
 
 ## ✅ Task 1 – Query Statements
-
+```sql
 SELECT * FROM student_tb;
 SELECT * FROM assignment_tb;
 SELECT * FROM submission_tb;
-
+```
 ## 🏗️ Task 2 – Table Structure & SQL Commands
-
+```sql
 CREATE DATABASE student_assignment_db;
 USE student_assignment_db;
 
@@ -49,7 +49,7 @@ VALUES
 ('Naythan', 'EDM19', 1, '2025-04-21', 'First Submission by Naythan'),
 ('Naythan', 'EDM19', 2, '2025-04-21', 'Updated Submission by Naythan'),
 ('Levy', 'NCMA219', 1, '2025-05-12', 'Submission by Levy');
-
+```
 ## 🧩 Task 3 – ER Diagram or Relational Schema
 
 <img src="Images/FT2%20ERD.jpg" alt="Alt Text" width="800" height="400"> 
@@ -106,4 +106,4 @@ SELECT * FROM student_tb;
 SELECT * FROM assignment_tb;
 
 SELECT * FROM submission_tb;
-
+```
