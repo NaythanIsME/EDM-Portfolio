@@ -13,7 +13,7 @@ SELECT department, AVG(salary) AS average_salary
 FROM EmployeeSalaries
 GROUP BY department;
 ```
-![Alt Text](relative/path/to/image.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/Images/GROUP%20BY%20FT4.jpg)
 
 ## 🏗️ Task 2 – Table Structure (Problem 1)
 ```sql
