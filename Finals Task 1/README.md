@@ -16,18 +16,36 @@ This project involves creating a database for managing events, attendees, and sp
 
 The database consists of the following tables:
 
-1. events_tbl – Stores event information
-🔑 event_id (Primary Key), 📝 event_name
+```sql
+-- 1. Events Table
+CREATE TABLE events_tbl (
+    event_id INT AUTO_INCREMENT PRIMARY KEY,
+    event_name VARCHAR(255) NOT NULL
+);
 
-2. attendees_tbl – Stores attendee information
-🔑 attendee_id (Primary Key), 📝 attendee_name
+-- 2. Attendees Table
+CREATE TABLE attendees_tbl (
+    attendee_id INT AUTO_INCREMENT PRIMARY KEY,
+    attendee_name VARCHAR(255) NOT NULL
+);
 
-3. events_attendees_tbl – Connects events and attendees (Many-to-Many)
-🔗 Foreign Keys: event_id, attendee_id
+-- 3. Events-Attendees Junction Table (Many-to-Many)
+CREATE TABLE events_attendees_tbl (
+    event_id INT,
+    attendee_id INT,
+    PRIMARY KEY (event_id, attendee_id),
+    FOREIGN KEY (event_id) REFERENCES events_tbl(event_id) ON DELETE CASCADE,
+    FOREIGN KEY (attendee_id) REFERENCES attendees_tbl(attendee_id) ON DELETE CASCADE
+);
 
-4. event_sponsors_tbl – Tracks sponsors per event
-🔗 Foreign Key: event_id, 📝 sponsor_name
-
+-- 4. Event Sponsors Table
+CREATE TABLE event_sponsors_tbl (
+    sponsor_id INT AUTO_INCREMENT PRIMARY KEY,
+    event_id INT,
+    sponsor_name VARCHAR(255) NOT NULL,
+    FOREIGN KEY (event_id) REFERENCES events_tbl(event_id) ON DELETE CASCADE
+);
+```
 
 ### 📸 Step 2: Table Output
 
@@ -73,7 +91,7 @@ CREATE TABLE IF NOT EXISTS event_sponsors_tbl (
 );
 ```
 
-## 📂 Raw Files
+## 📄 Task 4 – SQL File Download
 
 The following raw files are available for download:
 
