@@ -9,7 +9,7 @@ This project involves creating a database for managing events, attendees, and sp
 - ✅ Attendee participation
 
 - ✅ Event sponsorships
-- 
+
 ## Project Components
 
 ### Step 1: Database Structure
