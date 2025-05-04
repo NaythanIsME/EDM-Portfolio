@@ -1,6 +1,6 @@
-# Finals Task 4 - Employee Databases
+# 👨‍💼 Finals Task 4 – Employee Databases
 
-## Task 1 - Query Statements ( Problem 1 )
+## ✅ Task 1 – Query Statements (Problem 1)
 
 SELECT employee_name, salary
 FROM EmployeeSalaries
@@ -10,7 +10,7 @@ SELECT department, AVG(salary) AS average_salary
 FROM EmployeeSalaries
 GROUP BY department;
 
-## Task 2 - Table Structure ( Problem 1 )
+## 🏗️ Task 2 – Table Structure (Problem 1)
 
 CREATE DATABASE payroll;
 USE payroll;
@@ -41,7 +41,7 @@ INSERT INTO EmployeeSalaries (employee_name, department, salary, hire_date) VALU
 ('Robert Lopez', 'IT', 93000.00, '2018-11-15'),
 ('Amanda Harris', 'Sales', 78000.00, '2018-09-30');
 
-## Task 3 - Query Statements ( Problem 2 )
+## 📊 Task 3 – Query Statements (Problem 2)
 
 SELECT full_name, salary
 FROM EmployeeData
@@ -58,7 +58,7 @@ WHERE salary > 100000;
 SELECT COUNT(employee_id) AS number_of_employees
 FROM EmployeeData;
 
-## Task 4 - Table Structure ( Problem 2 )
+## 🏗️ Task 4 – Table Structure (Problem 2)
 
 CREATE DATABASE employeeDB;
 USE employeeDB;
@@ -90,7 +90,7 @@ INSERT INTO EmployeeData (full_name, department, salary, hire_date, manager_id) 
 ('Robert Lopez', 'IT', 193000.00, '2018-11-15', 9),
 ('Amanda Harris', 'Sales', 128000.00, '2018-09-30', 1);
 
-## Task 5 - SQL Copy of the Database and Table Structures
+## 📄 Task 5 – SQL Copy of the Database and Table Structures
 
 [Download SQL File Problem 1](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/Files/ft4_prob1.sql)
 
