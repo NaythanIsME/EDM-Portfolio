@@ -2,7 +2,6 @@
 
 ## ✅ Task 1 – Query Statements
 
-```sql
 SELECT * FROM student_tb;
 SELECT * FROM assignment_tb;
 SELECT * FROM submission_tb;
