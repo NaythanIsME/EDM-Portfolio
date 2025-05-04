@@ -2,6 +2,7 @@
 
 ## ✅ Task 1 – Query Statements
 
+```sql
 SELECT * FROM student_tb;
 SELECT * FROM assignment_tb;
 SELECT * FROM submission_tb;
@@ -50,11 +51,11 @@ VALUES
 ('Naythan', 'EDM19', 2, '2025-04-21', 'Updated Submission by Naythan'),
 ('Levy', 'NCMA219', 1, '2025-05-12', 'Submission by Levy');
 
-## Task 3 -  ER Diagram or Relational schema from phpMyAdmin or Workbench
+## 🧩 Task 3 – ER Diagram or Relational Schema
 
 <img src="Images/FT2%20ERD.jpg" alt="Alt Text" width="800" height="400"> 
 
-## Task 4 - Sql copy of the database and table structures
+## 📂 Task 4 – SQL File Download
 
 [Raw Copy of MySQL File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%202/Files/Naythan.sql)
 
