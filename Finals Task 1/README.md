@@ -29,19 +29,19 @@ The database consists of the following tables:
 🔗 Foreign Key: event_id, 📝 sponsor_name
 
 
-### Step 2: Table Design and Output
+### 📸 Step 2: Table Output
 
 Here is the output of the tables in the **Naythan_DB** database:
 
 ![Tables Output](Images/TABLES.jpg)
 
-### Step 3: Entity Relationship Diagram (ERD)
+### 📐 Step 3: Entity Relationship Diagram (ERD)
 
 Below is the ERD showing the relationships between the tables:
 
 ![ERD](Images/ERD.jpg)
 
-## Raw Files
+## 📂 Raw Files
 
 The following raw files are available for download:
 
