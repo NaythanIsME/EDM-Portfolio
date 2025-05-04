@@ -39,8 +39,6 @@ MODIFY COLUMN product_name VARCHAR(120) NOT NULL;
 
 ## 📄 Task 4 – SQL Copy of the Database and Table Structures
 
-[Raw Copy of MySQL File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%203/Files/naythan_products.sql)
-
 ```sql
 CREATE DATABASE products_db;
 USE products_db;
@@ -71,3 +69,6 @@ SELECT * FROM products_tbl;
 
 DESCRIBE products_tbl;
 ```
+## 📄 Task 5 – SQL File Download
+
+[Download MySQL File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%203/Files/naythan_products.sql)
