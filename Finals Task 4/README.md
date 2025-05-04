@@ -1,7 +1,7 @@
 # 👨‍💼 Finals Task 4 – Employee Databases
 
 ## ✅ Task 1 – Query Statements (Problem 1)
-
+```sql
 SELECT employee_name, salary
 FROM EmployeeSalaries
 ORDER BY salary DESC;
@@ -9,7 +9,7 @@ ORDER BY salary DESC;
 SELECT department, AVG(salary) AS average_salary
 FROM EmployeeSalaries
 GROUP BY department;
-
+```
 ## 🏗️ Task 2 – Table Structure (Problem 1)
 
 CREATE DATABASE payroll;
