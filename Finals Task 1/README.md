@@ -41,13 +41,6 @@ Below is the ERD showing the relationships between the tables:
 
 ![ERD](Images/ERD.jpg)
 
-## 📂 Raw Files
-
-The following raw files are available for download:
-
-1. [SQL Script](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/Files/naytheen.sql) - The SQL script to create the database and tables.
-2. [ERD File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/Files/naythan.mwb) - The raw ERD file for visual representation of the database.
-
 ## Database Creation SQL Script
 
 ```sql
@@ -78,3 +71,11 @@ CREATE TABLE IF NOT EXISTS event_sponsors_tbl (
   PRIMARY KEY (event_id, sponsor_name),
   FOREIGN KEY (event_id) REFERENCES events_tbl(event_id)
 );
+```
+
+## 📂 Raw Files
+
+The following raw files are available for download:
+
+1. [SQL Script](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/Files/naytheen.sql) - The SQL script to create the database and tables.
+2. [ERD File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/Files/naythan.mwb) - The raw ERD file for visual representation of the database.
