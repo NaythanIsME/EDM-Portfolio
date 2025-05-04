@@ -1,13 +1,13 @@
 # 🛠️ Finals Task 3 – Table Manipulation
 
 ## ✅ Task 1 – Query Statements
-
+```sql
 SELECT * FROM products_tbl;
 
 DESCRIBE products_tbl;
-
+```
 ## 🏗️ Task 2 – Table Structure
-
+```sql
 CREATE DATABASE products_db;
 USE products_db;
 
@@ -32,7 +32,7 @@ VALUES
 
 ALTER TABLE products_tbl
 MODIFY COLUMN product_name VARCHAR(120) NOT NULL;
-
+```
 ## 🗺️ Task 3 – Relational Schema for Products Table
 
 <img src="Images/Products_tbl.jpg" alt="Alt Text" width="800" height="400"> 
@@ -70,3 +70,4 @@ MODIFY COLUMN product_name VARCHAR(120) NOT NULL;
 SELECT * FROM products_tbl;
 
 DESCRIBE products_tbl;
+```
