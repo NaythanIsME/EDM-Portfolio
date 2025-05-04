@@ -5,7 +5,10 @@
 SELECT employee_name, salary
 FROM EmployeeSalaries
 ORDER BY salary DESC;
+```
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/Images/DESC%20FT4.jpg)
 
+```sql
 SELECT department, AVG(salary) AS average_salary
 FROM EmployeeSalaries
 GROUP BY department;
