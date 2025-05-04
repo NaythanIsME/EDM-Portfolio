@@ -1,14 +1,12 @@
-# Finals Lab Task 2 - Transforming ER into Relational Tables
+# 🧪 Finals Lab Task 2 – Transforming ER into Relational Tables
 
-## Task 1 -  Query statements
+## ✅ Task 1 – Query Statements
 
 SELECT * FROM student_tb;
-
 SELECT * FROM assignment_tb;
-
 SELECT * FROM submission_tb;
 
-## Task 2 - Table Structure 
+## 🏗️ Task 2 – Table Structure & SQL Commands
 
 CREATE DATABASE student_assignment_db;
 USE student_assignment_db;
