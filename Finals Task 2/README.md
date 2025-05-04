@@ -54,9 +54,7 @@ VALUES
 
 <img src="Images/FT2%20ERD.jpg" alt="Alt Text" width="800" height="400"> 
 
-## 📂 Task 4 – SQL File Download
-
-[Raw Copy of MySQL File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%202/Files/Naythan.sql)
+## 📂 Task 4 – SQL Copy of the Database and Table Structures
 
 ```sql
 CREATE DATABASE student_assignment_db;
@@ -107,3 +105,6 @@ SELECT * FROM assignment_tb;
 
 SELECT * FROM submission_tb;
 ```
+## 📄 Task 5 – SQL File Download
+
+[Download MySQL File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%202/Files/Naythan.sql)
