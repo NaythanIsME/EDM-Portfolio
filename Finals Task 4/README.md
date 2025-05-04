@@ -11,7 +11,7 @@ FROM EmployeeSalaries
 GROUP BY department;
 ```
 ## 🏗️ Task 2 – Table Structure (Problem 1)
-
+```sql
 CREATE DATABASE payroll;
 USE payroll;
 
@@ -40,9 +40,9 @@ INSERT INTO EmployeeSalaries (employee_name, department, salary, hire_date) VALU
 ('Laura Martinez', 'Marketing', 88000.00, '2017-04-22'),
 ('Robert Lopez', 'IT', 93000.00, '2018-11-15'),
 ('Amanda Harris', 'Sales', 78000.00, '2018-09-30');
-
+```
 ## 📊 Task 3 – Query Statements (Problem 2)
-
+```sql
 SELECT full_name, salary
 FROM EmployeeData
 ORDER BY salary DESC;
@@ -57,9 +57,9 @@ WHERE salary > 100000;
 
 SELECT COUNT(employee_id) AS number_of_employees
 FROM EmployeeData;
-
+```
 ## 🏗️ Task 4 – Table Structure (Problem 2)
-
+```sql
 CREATE DATABASE employeeDB;
 USE employeeDB;
 
@@ -89,7 +89,7 @@ INSERT INTO EmployeeData (full_name, department, salary, hire_date, manager_id) 
 ('Laura Martinez', 'Marketing', 188000.00, '2017-04-22', 4),
 ('Robert Lopez', 'IT', 193000.00, '2018-11-15', 9),
 ('Amanda Harris', 'Sales', 128000.00, '2018-09-30', 1);
-
+```
 ## 📄 Task 5 – SQL Copy of the Database and Table Structures
 
 [Download SQL File Problem 1](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/Files/ft4_prob1.sql)
