@@ -10,6 +10,8 @@ SELECT department, AVG(salary) AS average_salary
 FROM EmployeeSalaries
 GROUP BY department;
 ```
+![Alt Text](relative/path/to/image.png)
+
 ## 🏗️ Task 2 – Table Structure (Problem 1)
 ```sql
 CREATE DATABASE payroll;
@@ -58,6 +60,10 @@ WHERE salary > 100000;
 SELECT COUNT(employee_id) AS number_of_employees
 FROM EmployeeData;
 ```
+
+![Alt Text](relative/path/to/image.png)
+
+
 ## 🏗️ Task 4 – Table Structure (Problem 2)
 ```sql
 CREATE DATABASE employeeDB;
