@@ -51,13 +51,13 @@ CREATE TABLE event_sponsors_tbl (
 
 Here is the output of the tables in the **Naythan_DB** database:
 
-![Tables Output](Images/TABLES.jpg)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/Images/TABLES.jpg)
 
 ### 📐 Step 3: Entity Relationship Diagram (ERD)
 
 Below is the ERD showing the relationships between the tables:
 
-![ERD](Images/ERD.jpg)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%201/Images/ERD.jpg)
 
 ## Database Creation SQL Script
 
