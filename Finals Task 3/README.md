@@ -35,7 +35,7 @@ MODIFY COLUMN product_name VARCHAR(120) NOT NULL;
 ```
 ## 🗺️ Task 3 – Relational Schema for Products Table
 
-<img src="Images/Products_tbl.jpg" alt="Alt Text" width="800" height="400"> 
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%203/Images/Products_tbl.jpg)
 
 ## 📄 Task 4 – SQL Copy of the Database and Table Structures
 
