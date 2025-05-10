@@ -10,6 +10,7 @@ JOIN products p ON v.v_code = p.v_code
 WHERE YEAR(p.p_indate) >= 2002;
 ```
 📸 Screenshot:
+
 ![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
 
 🔎 View 2: Products priced between 100 and 150
@@ -22,6 +23,7 @@ WHERE p_price BETWEEN 100 AND 150;
 SELECT * FROM view_products_price_100_150;
 ```
 📸 Screenshot:
+
 ![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no2.png)
 
 🔎 View 3: Total price of products sold by specific vendors
@@ -35,6 +37,7 @@ WHERE v.v_code IN (21344, 23119, 24288);
 SELECT * FROM view_total_price_by_vendor;
 ```
 📸 Screenshot:
+
 ![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no3.png)
 
 ## 🛠️ Task 2 – Stored Procedure
@@ -54,6 +57,7 @@ DELIMITER ;
 CALL update_vendor_name('Bryson,Inc.');
 ```
 📸 Screenshot:
+
 ![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no4.png)
 
 ## 🧮 Task 3 – Stored Function
@@ -78,6 +82,7 @@ DELIMITER ;
 SELECT get_products_by_vendor(21344, 'KY');
 ```
 📸 Screenshot:
+
 ![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no5.png)
 
 ## 🗂️ Task 4 – Database & Table Creation
