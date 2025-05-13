@@ -50,8 +50,8 @@ Learning how to manipulate tables effectively using SQL and related tools to ens
 ### 4. [Finals Task 4: Employee Databases](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/README.md)  
 A project focused on designing and managing an employee database using SQL, including queries and schema management.
 
-### 5. [Finals Task 5](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/README.md)  
-Further exploration of database concepts and operations through practical implementation and analysis.
+### 5. [Finals Task 5: SQL Views, Stored Procedures & Functions](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/README.md)  
+Covers advanced SQL concepts such as creating views, stored procedures, and user-defined functions for optimized and modular database operations.
 
 ### 6. 👨‍💻 [Finals Task 6: MongoDB](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/README.md)  
 An introduction to NoSQL databases using MongoDB, covering basic operations, data modeling, and real-world usage.
