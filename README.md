@@ -38,14 +38,23 @@ This project includes building pivot tables and dashboards in Excel to analyze d
 
 ## 🎓 **My Projects for Finals**
 
-### 1. **[Finals Task 1: Events Management DB](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Finals%20Task%201)**  
+### 1. [Finals Task 1: Events Management DB](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Finals%20Task%201)  
 An event management database project that focuses on the creation and maintenance of a database system for tracking event details.
 
-### 2. **[Finals Task 2: Transforming ER into Relational Tables](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Finals%20Task%202)**  
+### 2. [Finals Task 2: Transforming ER into Relational Tables](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Finals%20Task%202)  
 This project involves transforming an Entity-Relationship diagram into relational tables for database design and implementation.
 
-### 3. **[Finals Task 3: Table Manipulation](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Finals%20Task%203)**  
+### 3. [Finals Task 3: Table Manipulation](https://github.com/NaythanIsME/EDM-Portfolio/tree/main/Finals%20Task%203)  
 Learning how to manipulate tables effectively using SQL and related tools to ensure data integrity and efficiency.
+
+### 4. [Finals Task 4: Employee Databases](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%204/README.md)  
+A project focused on designing and managing an employee database using SQL, including queries and schema management.
+
+### 5. [Finals Task 5](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/README.md)  
+Further exploration of database concepts and operations through practical implementation and analysis.
+
+### 6. 👨‍💻 [Finals Task 6: MongoDB](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/README.md)  
+An introduction to NoSQL databases using MongoDB, covering basic operations, data modeling, and real-world usage.
 
 ---
 
