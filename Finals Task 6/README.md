@@ -1,6 +1,6 @@
 # 👨‍💻 Finals Task 6 – MongoDB Practice
 
-Task 1: Insert Movies
+## ✅ Task 1: Insert Movies
 
 ```sql
 db.movies.insertMany([
@@ -51,7 +51,7 @@ db.movies.insertMany([
 ```
 ![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/insert.png)
 
-Task 2: Querying Documents
+## 🛠️ Task 2: Querying Documents
 
 - Get all documents
 ```sql
@@ -89,7 +89,7 @@ db.movies.find({ $or: [ { year: { $lt: 2000 } }, { year: { $gt: 2010 } } ] })
 ```
 ![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/find5.png)
 
-Task 3: Updating Documents
+## 🧮 Task 3: Updating Documents
 
 Update documents in the movies collection as follows:
 
@@ -107,7 +107,7 @@ Update documents in the movies collection as follows:
 
 ![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/update3.png)
 
-Task 4: Text Search Queries
+## 🗂️ Task 4: Text Search Queries
 Write queries to:
 
 - Find all movies whose synopsis contains the word "Bilbo".
@@ -129,7 +129,7 @@ Write queries to:
   
 ![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/findx5.png)
 
-Task 5: Delete Documents
+## 🗂️ Task 5: Delete Documents
 Remove the following movies from the collection:
 
 - Pee Wee Herman's Big Adventure
