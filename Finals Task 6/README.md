@@ -49,7 +49,7 @@ db.movies.insertMany([
   }
 ])
 ```
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/insert.png)
 
 Task 2: Querying Documents
 
@@ -57,37 +57,37 @@ Task 2: Querying Documents
 ```sql
   db.movies.find()
 ```
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/find.png)
 
 - Get all documents with writer set to "Quentin Tarantino"
 ```sql
 db.movies.find({ writer: "Quentin Tarantino" })
 ```
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/find1.png)
 
 - Get all documents where actors include "Brad Pitt"
 ```sql
 db.movies.find({ actors: "Brad Pitt" })
 ```
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/find2.png)
 
 - Get all documents with franchise set to "The Hobbit"
 ```sql
 db.movies.find({ franchise: "The Hobbit" })
 ```
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/find3.png)
 
 - Get all movies released in the 1990s (1990 ≤ year ≤ 1999)
 ```sql
 db.movies.find({ year: { $gte: 1990, $lte: 1999 } })
 ```
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/find4.png)
 
 - Get all movies released before 2000 or after 2010
 ```sql
 db.movies.find({ $or: [ { year: { $lt: 2000 } }, { year: { $gt: 2010 } } ] })
 ```
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/find5.png)
 
 Task 3: Updating Documents
 
@@ -96,38 +96,50 @@ Update documents in the movies collection as follows:
 - Add a synopsis to "The Hobbit: An Unexpected Journey":
 "A reluctant hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home - and the gold within it - from the dragon Smaug."
 
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/update1.png)
 
 - Add a synopsis to "The Hobbit: The Desolation of Smaug":
 "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring."
 
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/update2.png)
 
 - Add the actor "Samuel L. Jackson" to "Pulp Fiction".
 
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/update3.png)
 
 Task 4: Text Search Queries
 Write queries to:
 
 - Find all movies whose synopsis contains the word "Bilbo".
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+  
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/findx1.png)
+
 - Find all movies whose synopsis contains "Gandalf".
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/findx2.png)
+
 - Find all movies whose synopsis contains "Bilbo" but not "Gandalf".
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+  
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/findx3.png)
+
 - Find all movies whose synopsis contains "dwarves" or "hobbit".
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+  
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/findx4.png)
+
 - Find all movies whose synopsis contains both "gold" and "dragon".
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+  
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/findx5.png)
 
 Task 5: Delete Documents
 Remove the following movies from the collection:
+
 - Pee Wee Herman's Big Adventure
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/delete1.png)
+
 - Avatar
-![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Images/no1.png)
+
+![Alt Text](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Images/del2.png)
 
 ## 📄 Task 6 – MongoDB Files
 
-[Download SQL File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%205/Files/ft5.sql)
+[Download MongoDB File](https://github.com/NaythanIsME/EDM-Portfolio/blob/main/Finals%20Task%206/Files/mongo_practice.movies.json)
